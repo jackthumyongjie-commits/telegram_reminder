@@ -1,0 +1,17 @@
+# Secrets & local config — never commit
+config/config.php
+storage/settings.json
+
+# Runtime / logs
+storage/*.log
+storage/*.lock
+storage/*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.bak
+*.old

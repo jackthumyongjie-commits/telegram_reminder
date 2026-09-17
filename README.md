@@ -217,7 +217,9 @@ More detail: [INSTALL.md](INSTALL.md)
 - Sessions after login
 - `config/` and `includes/` blocked by `.htaccess`
 - Cron requires `CRON_SECRET_KEY` for web and CLI
-- Do not commit real production passwords — keep secrets in `config/config.php` only on the server
+- Do not commit real production passwords or bot tokens
+- Copy `config/config.example.php` → `config/config.php` and `storage/settings.example.json` → `storage/settings.json` locally
+- `config/config.php` and `storage/settings.json` are gitignored — never push them to GitHub
 
 ## Requirements
 
